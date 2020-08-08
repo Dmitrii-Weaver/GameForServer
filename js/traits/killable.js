@@ -1,5 +1,5 @@
-import Trait from '../trait.js'
-import Player from './player.js'
+import Trait from '.trait.js'
+import Player from 'player.js'
 
 export default class Killable extends Trait {
     constructor() {

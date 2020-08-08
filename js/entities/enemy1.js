@@ -1,12 +1,12 @@
-import Entity from '../entity.js';
-import { loadSpriteSheet } from '../loaders/sprite.js';
-import PendulumMove from '../traits/pendulumMove.js'
-import Killable from '../traits/killable.js'
-import Solid from '../traits/solid.js'
-import physics from '../traits/physics.js'
-import Trait from '../trait.js'
-import Stomper from '../traits/stomper.js';
-import Player from '../traits/player.js';
+import Entity from '.entity.js';
+import { loadSpriteSheet } from '.loaders/sprite.js';
+import PendulumMove from '.traits/pendulumMove.js'
+import Killable from '.traits/killable.js'
+import Solid from '.traits/solid.js'
+import physics from '.traits/physics.js'
+import Trait from '.trait.js'
+import Stomper from '.traits/stomper.js';
+import Player from '.traits/player.js';
 
 export function loadEnemy1() {
     return loadSpriteSheet('enemy1')

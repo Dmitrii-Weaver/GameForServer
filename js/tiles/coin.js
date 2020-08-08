@@ -1,4 +1,4 @@
-import Player from "../traits/player.js"
+import Player from ".traits/player.js"
 
 
 function handle({entity, match,resolver}){

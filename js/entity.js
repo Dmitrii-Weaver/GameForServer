@@ -1,8 +1,8 @@
-import { Vec2 } from './math.js'
-import BoundingBox from './BoundingBox.js'
-import { AudioBoard } from './audioboard.js'
-import EventBuffer from './eventBuffer.js'
-import Trait from './trait.js'
+import { Vec2 } from 'math.js'
+import BoundingBox from 'BoundingBox.js'
+import { AudioBoard } from 'audioboard.js'
+import EventBuffer from 'eventBuffer.js'
+import Trait from 'trait.js'
 
 export const Sides = {
     TOP: Symbol('top'),

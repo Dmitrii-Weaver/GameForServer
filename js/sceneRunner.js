@@ -1,4 +1,4 @@
-import Scene from './scene.js'
+import Scene from 'scene.js'
 export default class SceneRunner{
     constructor(){
         this.sceneIndex = -1

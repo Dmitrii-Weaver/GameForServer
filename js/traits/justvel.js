@@ -1,5 +1,5 @@
 
-import Trait from '../trait.js'
+import Trait from '.trait.js'
 
 export default class Velocity extends Trait {
     constructor() {

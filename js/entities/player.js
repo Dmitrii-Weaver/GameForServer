@@ -1,13 +1,13 @@
-import Entity from '../entity.js';
-import Jump from '../traits/jump.js'
-import Solid from '../traits/solid.js'
-import physics from '../traits/physics.js'
-import Stomper from '../traits/stomper.js'
-import Go from '../traits/go.js'
-import { loadSpriteSheet } from '../loaders/sprite.js';
-import Killable from '../traits/killable.js';
-import { loadAudioBoard } from '../loaders/audio.js';
-import Player from '../traits/player.js';
+import Entity from '.entity.js';
+import Jump from '.traits/jump.js'
+import Solid from '.traits/solid.js'
+import physics from '.traits/physics.js'
+import Stomper from '.traits/stomper.js'
+import Go from '.traits/go.js'
+import { loadSpriteSheet } from '.loaders/sprite.js';
+import Killable from '.traits/killable.js';
+import { loadAudioBoard } from '.loaders/audio.js';
+import Player from '.traits/player.js';
 
 const FAST_DRAG = 1 / 5000
 const SLOW_DRAG = 1 / 1000

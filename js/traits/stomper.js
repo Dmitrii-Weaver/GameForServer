@@ -1,5 +1,5 @@
-import Trait from '../trait.js'
-import Killable from './killable.js'
+import Trait from '.trait.js'
+import Killable from 'killable.js'
 
 
 export default class Stomper extends Trait {

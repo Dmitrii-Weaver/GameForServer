@@ -1,14 +1,14 @@
-import Level from '../level.js'
-import Entity from '../entity.js'
-import { Matrix } from '../math.js'
-import { createSpriteLayer } from '../layers/sprites.js';
-import { createBackgroundLayer } from '../layers/background.js'
-import { loadMusicSheet } from './music.js'
-import { loadSpriteSheet } from './sprite.js'
-import { loadJSON } from '../loaders.js'
-import LevelTimer from '../traits/levelTimer.js';
-import Trigger from '../traits/trigger.js';
-import Trait from '../trait.js'
+import Level from '.level.js'
+import Entity from '.entity.js'
+import { Matrix } from '.math.js'
+import { createSpriteLayer } from '.layers/sprites.js';
+import { createBackgroundLayer } from '.layers/background.js'
+import { loadMusicSheet } from 'music.js'
+import { loadSpriteSheet } from 'sprite.js'
+import { loadJSON } from '.loaders.js'
+import LevelTimer from '.traits/levelTimer.js';
+import Trigger from '.traits/trigger.js';
+import Trait from '.trait.js'
 
 function createTimer() {
     const timer = new Entity()

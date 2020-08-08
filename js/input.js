@@ -1,7 +1,7 @@
-import Keyboard from './keyboardstate.js'
-import InputRouter from './inputRouter.js'
-import Jump from './traits/jump.js'
-import Go from './traits/go.js'
+import Keyboard from 'keyboardstate.js'
+import InputRouter from 'inputRouter.js'
+import Jump from 'traits/jump.js'
+import Go from 'traits/go.js'
 export function setupKeyboard(window) {
 
 

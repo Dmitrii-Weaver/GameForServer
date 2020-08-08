@@ -1,5 +1,5 @@
-import Trait from '../trait.js'
-import Stomper from '../traits/stomper.js'
+import Trait from '.trait.js'
+import Stomper from '.traits/stomper.js'
 
 
 const COIN_LIVE_THRESHOLD = 100

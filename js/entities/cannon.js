@@ -1,7 +1,7 @@
-import Entity from '../entity.js';
-import { findPlayers } from '../player.js';
-import Emitter from '../traits/emitter.js';
-import { loadAudioBoard } from '../loaders/audio.js';
+import Entity from '.entity.js';
+import { findPlayers } from '.player.js';
+import Emitter from '.traits/emitter.js';
+import { loadAudioBoard } from '.loaders/audio.js';
 
 const HOLD_FIRE_THRESHHOLD = 30
 

@@ -1,5 +1,5 @@
 
-import Scene from './scene.js'
+import Scene from 'scene.js'
 export default class CompositionScene extends Scene{
     constructor() {
     
