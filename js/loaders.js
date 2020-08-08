@@ -11,7 +11,8 @@ export function loadImage(url) {
 }
 
 export function loadJSON(url) {
-    return fetch(url)
+    let link = '.' + url
+    return fetch(link)
         .then(r => r.json())
 }
 
