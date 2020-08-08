@@ -45,7 +45,7 @@ function createSpawner(){
 
 
 function loadPattern(name) {
-    return loadJSON(`/sprites/patterns/${name}.json`)
+    return loadJSON(`sprites/patterns/${name}.json`)
 }
 
 
@@ -108,7 +108,7 @@ function setupTriggers(levelSpec, level) {
 
 export function createLevelLoader(entityFactory) {
     return function loadLevel(name) {
-        return loadJSON(`/levels/${name}.json`)
+        return loadJSON(`levels/${name}.json`)
             .then(levelSpec => Promise.all([
                 levelSpec,
                 loadSpriteSheet(levelSpec.spriteSheet),
