@@ -1,8 +1,8 @@
-import Trait from '.trait.js'
-import { Vec2 } from '.math.js'
-import { findPlayers, makePlayer } from '.player.js'
-import Player from 'player.js'
-import { setupKeyboard } from '.input.js'
+import Trait from '../trait.js'
+import { Vec2 } from '../math.js'
+import { findPlayers, makePlayer } from '../player.js'
+import Player from './player.js'
+import { setupKeyboard } from '../input.js'
 export default class playerController extends Trait {
     constructor(gameContext) {
         super()

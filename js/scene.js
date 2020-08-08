@@ -1,6 +1,6 @@
 
-import Compositor from 'Compositor.js'
-import EventEmitter from 'eventEmitter.js'
+import Compositor from './Compositor.js'
+import EventEmitter from './eventEmitter.js'
 
 export default class Scene {
     static EVENT_COMPLETE = Symbol('scene complete')

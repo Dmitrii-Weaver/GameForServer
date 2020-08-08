@@ -1,9 +1,9 @@
-import MusicController from 'musicController.js'
-import EntityCollider from 'entityCollider.js'
-import TileCollider from 'tilecollider.js'
-import Camera from 'Camera.js'
-import { findPlayers } from 'player.js'
-import Scene from 'scene.js'
+import MusicController from './musicController.js'
+import EntityCollider from './entityCollider.js'
+import TileCollider from './tilecollider.js'
+import Camera from './Camera.js'
+import { findPlayers } from './player.js'
+import Scene from './scene.js'
 
 function focusPlayer(level){
     for (const player of findPlayers(level.entities)){

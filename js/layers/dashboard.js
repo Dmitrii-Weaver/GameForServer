@@ -1,6 +1,6 @@
-import { findPlayers } from ".player.js"
-import Player from '.traits/player.js'
-import levelTimer from '.traits/levelTimer.js'
+import { findPlayers } from "../player.js"
+import Player from '../traits/player.js'
+import levelTimer from '../traits/levelTimer.js'
 
 function getPlayerTrait(entities) {
     for (const entity of findPlayers(entities)) {

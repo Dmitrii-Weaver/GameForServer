@@ -1,8 +1,8 @@
-import { loadPlayer } from 'entities/player.js';
-import {loadEnemy1} from 'entities/enemy1.js';
-import {loadTurtle} from 'entities/turtle.js';
-import {loadBullet} from 'entities/bullet.js'
-import {loadCannon} from 'entities/cannon.js'
+import { loadPlayer } from './entities/player.js';
+import {loadEnemy1} from './entities/enemy1.js';
+import {loadTurtle} from './entities/turtle.js';
+import {loadBullet} from './entities/bullet.js'
+import {loadCannon} from './entities/cannon.js'
 export function loadEntities(audioContext){
     const entityFactories = {};
 

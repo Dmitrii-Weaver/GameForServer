@@ -1,17 +1,17 @@
-import Timer from 'timer.js'
-import { makePlayer, createPlayerEnv, findPlayers } from 'player.js'
-import { createLevelLoader } from 'loaders/levelloader.js';
-import { loadFont } from 'loaders/font.js';
-import { loadEntities } from 'entities.js'
-import { setupKeyboard } from 'input.js'
-import { createColorLayer } from 'layers/color.js'
-import { createCollisionLayer } from 'layers/collision.js'
-import { createDashboardLayer } from 'layers/dashboard.js'
-import { createPlayerProgress } from 'layers/PlayerProgress.js'
-import SceneRunner from 'sceneRunner.js';
-import TimedScene from 'timedScene.js'
-import Scene from 'scene.js';
-import { createTextLayer } from 'layers/text.js'
+import Timer from './timer.js'
+import { makePlayer, createPlayerEnv, findPlayers } from './player.js'
+import { createLevelLoader } from './loaders/levelloader.js';
+import { loadFont } from './loaders/font.js';
+import { loadEntities } from './entities.js'
+import { setupKeyboard } from './input.js'
+import { createColorLayer } from './layers/color.js'
+import { createCollisionLayer } from './layers/collision.js'
+import { createDashboardLayer } from './layers/dashboard.js'
+import { createPlayerProgress } from './layers/PlayerProgress.js'
+import SceneRunner from './sceneRunner.js';
+import TimedScene from './timedScene.js'
+import Scene from './scene.js';
+import { createTextLayer } from './layers/text.js'
 
 
 async function main(canvas) {

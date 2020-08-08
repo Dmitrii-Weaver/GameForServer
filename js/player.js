@@ -1,6 +1,6 @@
-import Entity from 'entity.js'
-import playerController from 'traits/playerController.js'
-import Player from 'traits/player.js'
+import Entity from './entity.js'
+import playerController from './traits/playerController.js'
+import Player from './traits/player.js'
 
 
 

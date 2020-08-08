@@ -1,4 +1,4 @@
-import { Sides } from '.entity.js'
+import { Sides } from '../entity.js'
 
 function handleX({entity, match}) {
     if (entity.vel.x > 0) {

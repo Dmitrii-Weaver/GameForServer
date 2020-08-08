@@ -1,10 +1,10 @@
-import {loadJSON, loadImage} from '.loaders.js'
-import SpriteSheet from '.SpriteSheet.js';
-import { createAnim } from '.anim.js';
+import {loadJSON, loadImage} from '../loaders.js'
+import SpriteSheet from '../SpriteSheet.js';
+import { createAnim } from '../anim.js';
 
 
 export function loadSpriteSheet(name) {
-    return loadJSON(`sprites/${name}.json`)
+    return loadJSON(`/sprites/${name}.json`)
         .then(sheetSpec => Promise.all([
             sheetSpec,
             loadImage(sheetSpec.imageURL)
